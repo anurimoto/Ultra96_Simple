@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec  8 17:47:40 2021
+# Process ID: 8313
+# Current directory: /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.runs/UART_TEST_zynq_ultra_ps_e_0_0_synth_1
+# Command line: vivado -log UART_TEST_zynq_ultra_ps_e_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_TEST_zynq_ultra_ps_e_0_0.tcl
+# Log file: /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.runs/UART_TEST_zynq_ultra_ps_e_0_0_synth_1/UART_TEST_zynq_ultra_ps_e_0_0.vds
+# Journal file: /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.runs/UART_TEST_zynq_ultra_ps_e_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source UART_TEST_zynq_ultra_ps_e_0_0.tcl -notrace

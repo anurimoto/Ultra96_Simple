@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1638960724">
+  <File Type="RBD_FILE" Name="Ultra96.rbd"/>
+  <File Type="NPI_FILE" Name="Ultra96.npi"/>
+  <File Type="RNPI_FILE" Name="Ultra96.rnpi"/>
+  <File Type="CFI_FILE" Name="Ultra96.cfi"/>
+  <File Type="RCFI_FILE" Name="Ultra96.rcfi"/>
+  <File Type="PDI-FILE" Name="Ultra96.pdi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Ultra96_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Ultra96_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Ultra96_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Ultra96_methodology_drc_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Ultra96_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Ultra96_postroute_physopt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Ultra96_physopt.dcp"/>
+  <File Type="PLACE-IO" Name="Ultra96_io_placed.rpt"/>
+  <File Type="OPT-DRC" Name="Ultra96_drc_opted.rpt"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Ultra96.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Ultra96.sysdef"/>
+  <File Type="BITSTR-MMI" Name="Ultra96.mmi"/>
+  <File Type="BITSTR-BMM" Name="Ultra96_bd.bmm"/>
+  <File Type="PLACE-UTIL-PB" Name="Ultra96_utilization_placed.pb"/>
+  <File Type="BG-BGN" Name="Ultra96.bgn"/>
+  <File Type="PLACE-DCP" Name="Ultra96_placed.dcp"/>
+  <File Type="OPT-HWDEF" Name="Ultra96.hwdef"/>
+  <File Type="BG-BIT" Name="Ultra96.bit"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Ultra96_bus_skew_routed.rpt"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PA-TCL" Name="Ultra96.tcl"/>
+  <File Type="REPORTS-TCL" Name="Ultra96_reports.tcl"/>
+  <File Type="PLACE-UTIL" Name="Ultra96_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="Ultra96.drc"/>
+  <File Type="OPT-DCP" Name="Ultra96_opt.dcp"/>
+  <File Type="PLACE-CTRL" Name="Ultra96_control_sets_placed.rpt"/>
+  <File Type="RDI-RDI" Name="Ultra96.vdi"/>
+  <File Type="BG-BIN" Name="Ultra96.bin"/>
+  <File Type="PWROPT-DCP" Name="Ultra96_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Ultra96.msk"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Ultra96_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-RBT" Name="Ultra96.rbt"/>
+  <File Type="BITSTR-NKY" Name="Ultra96.nky"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Ultra96_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Ultra96_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Ultra96_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Ultra96_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Ultra96_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Ultra96_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Ultra96_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Ultra96_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Ultra96_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Ultra96_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Ultra96_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Ultra96_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Ultra96_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Ultra96_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Ultra96_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Ultra96_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Ultra96_bus_skew_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/UART_TEST/UART_TEST.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/UART_TEST/hdl/UART_TEST_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Ultra96.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Ultra96"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Ultra96v2.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="UART_TEST_zynq_ultra_ps_e_0_0"/>
+</GenRun>

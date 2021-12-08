@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/ec67/hdl" --include "../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/e257/hdl" --include "/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
+"../../../../Ultra96_Simple.ip_user_files/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/sim/UART_TEST_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../../Ultra96_Simple.ip_user_files/bd/UART_TEST/sim/UART_TEST.v" \
+"../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/hdl/UART_TEST_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+19:59:15
+/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.ip_user_files/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/sim/UART_TEST_zynq_ultra_ps_e_0_0_vip_wrapper.v,1638953254,verilog,,/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.ip_user_files/bd/UART_TEST/sim/UART_TEST.v,,UART_TEST_zynq_ultra_ps_e_0_0,,axi_vip_v1_1_7;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_7,../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/e257/hdl;../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/ec67/hdl;/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/include,,,,,
+/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.ip_user_files/bd/UART_TEST/sim/UART_TEST.v,1638972205,verilog,,/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/hdl/UART_TEST_wrapper.v,,UART_TEST,,axi_vip_v1_1_7;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_7,../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/e257/hdl;../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/ec67/hdl;/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/include,,,,,
+/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,axi_vip_v1_1_7;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_7,,,,,,
+,,,,,,tb_Ultra96,,,,,,,,
+/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/hdl/UART_TEST_wrapper.v,1638960516,verilog,,,,UART_TEST_wrapper,,axi_vip_v1_1_7;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_7,../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/e257/hdl;../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/ec67/hdl;/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/include,,,,,
+/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/new/Ultra96.sv,1638971262,systemVerilog,,/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sim_1/new/tb_Ultra96.sv,,Ultra96,,axi_vip_v1_1_7;xilinx_vip;zynq_ultra_ps_e_vip_v1_0_7,../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/e257/hdl;../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/ec67/hdl;/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/include,,,,,
