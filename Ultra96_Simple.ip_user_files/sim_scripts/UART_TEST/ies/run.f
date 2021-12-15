@@ -9,6 +9,9 @@
   "/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/clk_vip_if.sv" \
   "/opt/Xilinx/Vivado/2020.1/data/xilinx_vip/hdl/rst_vip_if.sv" \
 -endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/UART_TEST/sim/UART_TEST.v" \
+-endlib
 -makelib ies_lib/axi_infrastructure_v1_1_0 \
   "../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
 -endlib
@@ -19,8 +22,7 @@
   "../../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ipshared/e257/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/sim/UART_TEST_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
-  "../../../bd/UART_TEST/sim/UART_TEST.v" \
+  "../../../bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_1/sim/UART_TEST_zynq_ultra_ps_e_0_1_vip_wrapper.v" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
   glbl.v

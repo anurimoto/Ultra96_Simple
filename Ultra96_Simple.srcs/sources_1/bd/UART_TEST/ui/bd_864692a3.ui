@@ -1,16 +1,20 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"1.0",
-   "Default View_TopLeft":"-126,-356",
+   "Default View_TopLeft":"-211,-359",
    "DisplayTieOff":"1",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
 #  -string -flagsOSRD
-preplace port PL_CLK -pg 1 -lvl 2 -x 850 -y -100 -defaultsOSRD
-preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 520 -y -120 -defaultsOSRD
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 10 -30 830
-levelinfo -pg 1 -10 520 850
-pagesize -pg 1 -db -bbox -sgen -10 -380 950 180
+preplace port PL_CLK -pg 1 -lvl 2 -x 650 -y -90 -defaultsOSRD
+preplace port PL_RSTN -pg 1 -lvl 2 -x 650 -y -110 -defaultsOSRD
+preplace inst zynq -pg 1 -lvl 1 -x 320 -y -110 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 0 -20 630
+preplace netloc zynq_pl_resetn0 1 1 1 630 -120n
+levelinfo -pg 1 -20 320 650
+pagesize -pg 1 -db -bbox -sgen -20 -200 770 180
 "
 }
-0
+{
+   "da_zynq_ultra_ps_e_cnt":"2"
+}

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec 15 18:01:55 2021
+# Process ID: 6869
+# Current directory: /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.sim/sim_1/behav/xsim/xsim.dir/tb_Ultra96_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.sim/sim_1/behav/xsim/xsim.dir/tb_Ultra96_behav/webtalk/xsim_webtalk.tcl -notrace

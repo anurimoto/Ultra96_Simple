@@ -6,7 +6,7 @@
 # Block Designs: bd/UART_TEST/UART_TEST.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==UART_TEST || ORIG_REF_NAME==UART_TEST} -quiet] -quiet
 
-# IP: bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==UART_TEST_zynq_ultra_ps_e_0_0 || ORIG_REF_NAME==UART_TEST_zynq_ultra_ps_e_0_0} -quiet] -quiet
+# IP: bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==UART_TEST_zynq_ultra_ps_e_0_1 || ORIG_REF_NAME==UART_TEST_zynq_ultra_ps_e_0_1} -quiet] -quiet
 
 # XDC: bd/UART_TEST/UART_TEST_ooc.xdc

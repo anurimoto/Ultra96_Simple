@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1638960623">
+<GenRun Id="synth_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1639559440">
+  <File Type="VDS-TIMINGSUMMARY" Name="Ultra96_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Ultra96.dcp"/>
   <File Type="RDS-UTIL-PB" Name="Ultra96_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="Ultra96.tcl"/>
   <File Type="RDS-UTIL" Name="Ultra96_utilization_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="Ultra96_reports.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Ultra96_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="Ultra96.vds"/>
+  <File Type="REPORTS-TCL" Name="Ultra96_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="Ultra96_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="Ultra96.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/UART_TEST/UART_TEST.bd">
@@ -57,5 +60,5 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="UART_TEST_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="UART_TEST_zynq_ultra_ps_e_0_1"/>
 </GenRun>

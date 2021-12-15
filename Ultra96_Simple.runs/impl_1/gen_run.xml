@@ -1,62 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1638960724">
+<GenRun Id="impl_1" LaunchPart="xczu3eg-sbva484-1-i" LaunchTime="1639559747">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="Ultra96.vdi"/>
+  <File Type="BG-DRC" Name="Ultra96.drc"/>
+  <File Type="BG-BGN" Name="Ultra96.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Ultra96.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Ultra96.ltx"/>
   <File Type="RBD_FILE" Name="Ultra96.rbd"/>
   <File Type="NPI_FILE" Name="Ultra96.npi"/>
   <File Type="RNPI_FILE" Name="Ultra96.rnpi"/>
   <File Type="CFI_FILE" Name="Ultra96.cfi"/>
   <File Type="RCFI_FILE" Name="Ultra96.rcfi"/>
   <File Type="PDI-FILE" Name="Ultra96.pdi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Ultra96_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-RPX" Name="Ultra96_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Ultra96_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Ultra96_methodology_drc_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Ultra96_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Ultra96_postroute_physopt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="Ultra96_physopt.dcp"/>
-  <File Type="PLACE-IO" Name="Ultra96_io_placed.rpt"/>
-  <File Type="OPT-DRC" Name="Ultra96_drc_opted.rpt"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Ultra96.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="Ultra96.sysdef"/>
   <File Type="BITSTR-MMI" Name="Ultra96.mmi"/>
   <File Type="BITSTR-BMM" Name="Ultra96_bd.bmm"/>
-  <File Type="PLACE-UTIL-PB" Name="Ultra96_utilization_placed.pb"/>
-  <File Type="BG-BGN" Name="Ultra96.bgn"/>
-  <File Type="PLACE-DCP" Name="Ultra96_placed.dcp"/>
-  <File Type="OPT-HWDEF" Name="Ultra96.hwdef"/>
-  <File Type="BG-BIT" Name="Ultra96.bit"/>
-  <File Type="ROUTE-BUS-SKEW" Name="Ultra96_bus_skew_routed.rpt"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="PA-TCL" Name="Ultra96.tcl"/>
-  <File Type="REPORTS-TCL" Name="Ultra96_reports.tcl"/>
-  <File Type="PLACE-UTIL" Name="Ultra96_utilization_placed.rpt"/>
-  <File Type="BG-DRC" Name="Ultra96.drc"/>
-  <File Type="OPT-DCP" Name="Ultra96_opt.dcp"/>
-  <File Type="PLACE-CTRL" Name="Ultra96_control_sets_placed.rpt"/>
-  <File Type="RDI-RDI" Name="Ultra96.vdi"/>
-  <File Type="BG-BIN" Name="Ultra96.bin"/>
-  <File Type="PWROPT-DCP" Name="Ultra96_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="Ultra96.msk"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Ultra96_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-RBT" Name="Ultra96.rbt"/>
   <File Type="BITSTR-NKY" Name="Ultra96.nky"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="Ultra96_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC" Name="Ultra96_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="Ultra96_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="Ultra96_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="Ultra96_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Ultra96_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="Ultra96_route_status.rpt"/>
+  <File Type="BITSTR-RBT" Name="Ultra96.rbt"/>
+  <File Type="BITSTR-MSK" Name="Ultra96.msk"/>
+  <File Type="BG-BIN" Name="Ultra96.bin"/>
+  <File Type="BG-BIT" Name="Ultra96.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Ultra96_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Ultra96_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Ultra96_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Ultra96_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Ultra96_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Ultra96_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Ultra96_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Ultra96_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Ultra96_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Ultra96_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Ultra96_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Ultra96_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Ultra96_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Ultra96_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Ultra96_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Ultra96_timing_summary_routed.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Ultra96_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Ultra96_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Ultra96_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Ultra96_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Ultra96_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Ultra96_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Ultra96_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Ultra96_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Ultra96_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Ultra96_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Ultra96_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Ultra96_routed_bb.dcp"/>
   <File Type="ROUTE-DCP" Name="Ultra96_routed.dcp"/>
   <File Type="ROUTE-ERROR-DCP" Name="Ultra96_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Ultra96_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="Ultra96_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="Ultra96_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="Ultra96_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-CLK" Name="Ultra96_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="Ultra96_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="Ultra96_bus_skew_routed.rpx"/>
+  <File Type="PHYSOPT-TIMING" Name="Ultra96_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Ultra96_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Ultra96_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Ultra96_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Ultra96_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="Ultra96_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Ultra96_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Ultra96_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Ultra96_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Ultra96_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Ultra96_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Ultra96_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Ultra96_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Ultra96_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="Ultra96_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Ultra96_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="Ultra96.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Ultra96_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Ultra96_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Ultra96_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Ultra96_timing_summary_init.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Ultra96_timing_summary_pwropted.rpt"/>
+  <File Type="REPORTS-TCL" Name="Ultra96_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="Ultra96_timing_summary_opted.rpt"/>
+  <File Type="PA-TCL" Name="Ultra96.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/UART_TEST/UART_TEST.bd">
@@ -115,7 +133,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="UART_TEST_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="UART_TEST_zynq_ultra_ps_e_0_1"/>
 </GenRun>

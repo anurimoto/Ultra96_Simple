@@ -1,6 +1,6 @@
-set_property SRC_FILE_INFO {cfile:/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0_in_context.xdc rfile:../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0_in_context.xdc id:1 order:EARLY scoped_inst:UART_TEST_wrapper/UART_TEST_i/zynq_ultra_ps_e_0} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1_in_context.xdc rfile:../../../Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1_in_context.xdc id:1 order:EARLY scoped_inst:uart_test_wrapper/UART_TEST_i/zynq} [current_design]
 set_property SRC_FILE_INFO {cfile:/home/anurimoto/Project/Ultra96_Simple/Ultra96v2.xdc rfile:../../../Ultra96v2.xdc id:2} [current_design]
-current_instance UART_TEST_wrapper/UART_TEST_i/zynq_ultra_ps_e_0
+current_instance uart_test_wrapper/UART_TEST_i/zynq
 set_property src_info {type:SCOPED_XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 create_clock -period 10.000 [get_ports {}]
 current_instance
@@ -112,5 +112,7 @@ set_property src_info {type:XDC file:2 line:137 export:INPUT save:INPUT read:REA
 set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 65]];
 set_property src_info {type:XDC file:2 line:140 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 66]];
+set_property src_info {type:XDC file:2 line:229 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D10  [get_ports {MIO36_PS_GPIO1_0       }];  # "D10.MIO36_PS_GPIO1_0"
 set_property src_info {type:XDC file:2 line:257 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA22 [get_ports {PS_DDR_CAA0            }];  # "AA22.PS_DDR_CAA0"

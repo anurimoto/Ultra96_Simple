@@ -71,7 +71,6 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param xicom.use_bs_reader 1
-set_param chipscope.maxJobs 3
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xczu3eg-sbva484-1-i
 
@@ -91,8 +90,8 @@ OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/new/Ultra96.sv
 read_verilog -library xil_defaultlib /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/hdl/UART_TEST_wrapper.v
 add_files /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/UART_TEST.bd
-set_property used_in_implementation false [get_files -all /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_0/UART_TEST_zynq_ultra_ps_e_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/ip/UART_TEST_zynq_ultra_ps_e_0_1/UART_TEST_zynq_ultra_ps_e_0_1.xdc]
 set_property used_in_implementation false [get_files -all /home/anurimoto/Project/Ultra96_Simple/Ultra96_Simple.srcs/sources_1/bd/UART_TEST/UART_TEST_ooc.xdc]
 
 OPTRACE "Adding files" END { }

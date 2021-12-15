@@ -226,7 +226,7 @@ set_property IOSTANDARD LVCMOS12 [get_ports -of_objects [get_iobanks 66]];
 #set_property PACKAGE_PIN F11  [get_ports {MIO31_MHTN_ALRT        }];  # "F11.MIO31_MHTN_ALRT"
 
 # Low-speed expansion connector
-#set_property PACKAGE_PIN D10  [get_ports {MIO36_PS_GPIO1_0       }];  # "D10.MIO36_PS_GPIO1_0"
+set_property PACKAGE_PIN D10  [get_ports {MIO36_PS_GPIO1_0       }];  # "D10.MIO36_PS_GPIO1_0"
 #set_property PACKAGE_PIN E11  [get_ports {MIO37_PS_GPIO1_1       }];  # "E11.MIO37_PS_GPIO1_1"
 #set_property PACKAGE_PIN C10  [get_ports {MIO39_PS_GPIO1_2       }];  # "C10.MIO39_PS_GPIO1_2"
 #set_property PACKAGE_PIN D11  [get_ports {MIO40_PS_GPIO1_3       }];  # "D11.MIO40_PS_GPIO1_3"
